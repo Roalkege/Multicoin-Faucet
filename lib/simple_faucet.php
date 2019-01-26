@@ -248,7 +248,7 @@ class simple_faucet
 
 				case "total_payout":
 				case "total_payouts":
-					return $self->payout_aggregate("SUM");
+					return number_format($self->payout_aggregate("SUM"), 8, '.', '');
 
 				case "smallest_payout":
 					return $self->payout_aggregate("MIN");
