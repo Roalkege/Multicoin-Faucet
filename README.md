@@ -75,8 +75,10 @@ ___
 
 Now you just have to fill in the config with all necessary informations. The values are explained behind the // signs.
 
+___
 
 **Optionally**
+
 Put a favicon.ico in the img folder
 
 When using the basic template you should add a Coinname.png in the img folder. Note that the large and lower case of the Coinname.png should match with the Coinname set in the Faucet config.
