@@ -25,12 +25,12 @@
         <div id="wrapper" class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/728x90.gif"></a>
-                </div> 
+			{{AD-TOP}}
+		    </div> 
             </div>
             <div class="row my-3">
                 <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/160x600.gif"></a>
+                    {{AD-LEFT}}
                 </div>
                 <div class="col-12 col-md-4 col-lg-6 col-xl-8">                   
                     <div class="row">
@@ -168,7 +168,7 @@
                     ?>
                     <div class="row my-3">
                         <div class="col-12">
-                            <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/728x90.gif"></a>
+                            {{AD-MIDDLE}}
                         </div>
                     </div>
                     <div class="row">
@@ -213,8 +213,8 @@
                     ?>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/160x600.gif"></a>
-                </div>
+			{{AD-RIGHT}}
+		    </div>
             </div>           
         </div>
         <!-- Optional JavaScript -->
