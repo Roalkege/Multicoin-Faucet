@@ -104,7 +104,10 @@ $config = array(
 	"title" => "Cryptocurrency faucet script", // page title, may be used by the template too
 	"template" => "default", // template to use (see the templates directory)
     //code for advertisements:
-    "ads" => "<iframe></iframe>"
+    "ad-top" => "<iframe></iframe>"  
+    "ad-left" => "<iframe></iframe>"
+    "ad-right" => "<iframe></iframe>"
+    "ad-middle" => "<iframe></iframe>"
 	);
 
 
