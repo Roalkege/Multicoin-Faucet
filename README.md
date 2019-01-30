@@ -33,7 +33,7 @@ ___
 
 `cd /var/www/html`
 
-`git clone https://github.com/WlanWerner/Multicoin-Faucet-Script.git`
+`git clone https://github.com/WlanWerner/Multicoin-Faucet.git`
 
 `cp -r Multicoin-Faucet-Script/* /var/www/html/`
 
