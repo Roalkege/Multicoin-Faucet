@@ -35,7 +35,7 @@ ___
 
 `git clone https://github.com/WlanWerner/Multicoin-Faucet.git`
 
-`cp -r Multicoin-Faucet-Script/* /var/www/html/`
+`cp -r Multicoin-Faucet/* /var/www/html/`
 
 -> Now you have all the faucet Files in the Webserver root.
 
