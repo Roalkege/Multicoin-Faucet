@@ -306,14 +306,15 @@ class simple_faucet
 							return solvemedia_get_html(@$config["solvemedia_config"]["public_key"]);
 						}
 					return '';
-                                case "ad-top":
-                                    return $config['ad-top'];
-                                case "ad-middle":
-                                    return $config['ad-middle'];
-                                case "ad-left":
-                                    return $config['ad-right'];
-                                case "ad-right":
-                                    return $config['ad-right'];
+                case "ad-top":
+					return $config['ad-top'];
+				case "ad-left":
+                    return $config['ad-left'];
+				case "ad-middle":
+			
+                    return $config['ad-middle'];
+                case "ad-right":
+                    return $config['ad-right'];
 					
 
 				default:
