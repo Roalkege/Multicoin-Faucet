@@ -32,7 +32,7 @@ SOFTWARE.
 $config = array(
     
     // e.g. Dogecoin
-    "coinname" => "Coinname",
+    "coinname" => "jumpcoin",
     
 	// RPC settings:
 	// These are the settings you put into e.g. dogecoin.conf. They allow the faucet to interact with your wallet
@@ -102,12 +102,14 @@ $config = array(
 
 	// Faucet look and feel:
 	"title" => "Cryptocurrency faucet script", // page title, may be used by the template too
-	"template" => "default", // template to use (see the templates directory)
+	"template" => "basic", // template to use (see the templates directory)
     //code for advertisements:
-    "ad-top" => "<iframe></iframe>"  
-    "ad-left" => "<iframe></iframe>"
-    "ad-right" => "<iframe></iframe>"
-    "ad-middle" => "<iframe></iframe>"
+	//If you want to insert ads from a ads supplier just pate the iframe code between the " "
+	// For further examples or if you want to know how to add manually banners with ref link please have a look at the github documentation
+    "ad-top" => "",  
+    "ad-left" => "",
+    "ad-right" => "",
+    "ad-middle" => ""
 	);
 
 
