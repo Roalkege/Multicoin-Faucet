@@ -4,7 +4,8 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+		<!-- favicon -->
+		<link rel="shortcut icon" href="img/{{COINNAME}}.ico">
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <!-- FontAwesome -->
@@ -24,18 +25,18 @@
         <div id="wrapper" class="container">
             <div class="row">
                 <div class="col-12 text-center">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/728x90.gif"></a>
+				{{AD-TOP}}
                 </div> 
             </div>
             <div class="row my-3">
                 <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/160x600.gif"></a>
+				{{AD-LEFT}}
                 </div>
                 <div class="col-12 col-md-4 col-lg-6 col-xl-8">                   
                     <div class="row">
                         <div class="col-12 text-center mb-2">
-                            <img src="./img/werner.jpg" class="img-fluid rounded float-left" style="height: 75px; width: auto;">
-                            <img src="./img/jumpcoin.png" class="img-fluid rounded float-right" style="height: 75px; width: auto;">
+                            <img src="./img/{{COINNAME}}.png" class="img-fluid rounded float-left" style="height: 75px; width: auto;">
+                            <img src="./img/{{COINNAME}}.png" class="img-fluid rounded float-right" style="height: 75px; width: auto;">
                             <h1>{{TITLE}}</h1>
                         </div>
                     </div>
@@ -167,7 +168,7 @@
                     ?>
                     <div class="row my-3">
                         <div class="col-12">
-                            <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/728x90.gif"></a>
+						{{AD-RIGHT}}
                         </div>
                     </div>
                     <div class="row">
@@ -212,7 +213,7 @@
                     ?>
                 </div>
                 <div class="col-12 col-md-4 col-lg-3 col-xl-2">
-                    <a href="http://moondash.co.in/?ref=AAC5C780A445" target="_blank"><img src="https://moondash.co.in/coin/160x600.gif"></a>
+				{{AD-MIDDLE}}
                 </div>
             </div>           
         </div>
